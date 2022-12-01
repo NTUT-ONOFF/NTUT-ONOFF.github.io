@@ -446,7 +446,8 @@ ul.icon img:hover {
     stroke-miterlimit: 10;
 	width: 300px;		/*幅*/
     stroke: #fff;		/*ここはこのままで変更しない（文字色の指定ではありません）*/
-    stroke-width: 12;	/*ロゴをなぞった際の線の太さを指定して下さい。*/
+    stroke-width: 40;	/*ロゴをなぞった際の線の太さを指定して下さい。*/
+  
 }
 
 /*スクロールを促すアイコン*/
@@ -613,40 +614,7 @@ section + section {
 /*その他
 ---------------------------------------------------------------------------*/
 .ws {width: 45%;display: inline-block;}
-
-/* Google chrome */
-@-webkit-keyframes svg-text-anim {
- 40% {
-    stroke-dashoffset: 0;
-    fill: transparent;
-  }
-  60% {
-    stroke-dashoffset: 0;
-    fill: #008516;
-  }
-  100% {
-    stroke-dashoffset: 0;
-    fill: #008516;
-  }
-  
-}
-/* Most browsers */
-@keyframes svg-text-anim {
-   40% {
-      stroke-dashoffset: 0;
-      fill: transparent;
-    }
-    60% {
-      stroke-dashoffset: 0;
-      fill: #008516;
-    }
-    100% {
-      stroke-dashoffset: 0;
-      fill: #008516;
-    }
-    
-}
-  
+ß  
 
 /*　※注意！　下の閉じカッコ　}　は800px以上の設定に必要なので、うっかり削除しないように。　*/
 
