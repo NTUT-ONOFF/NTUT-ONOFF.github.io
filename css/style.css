@@ -120,7 +120,7 @@ main h2 {
 	text-align: center;					/*文字をセンタリング*/
 	font-family: 'Lobster', cursive, "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka;
 	font-weight: normal;				/*hタグはデフォルトで太字なので、これを標準にする*/
-	font-size: 4rem;					/*文字サイズ。remの単位についてはテンプレート内の解説をお読み下さい。*/
+	font-size: 3.5rem;					/*文字サイズ。remの単位についてはテンプレート内の解説をお読み下さい。*/
 	margin-bottom: 80px;				/*下に空けるスペース*/
 }
 
