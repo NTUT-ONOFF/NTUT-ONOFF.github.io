@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="css/reserve.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <h1 id="logo"><a href="index.html"><img src="images/onoff-logo.png" alt="OnOff Lounge"></a></h1>
+   <a href="index.html"><span>OnOffLoungeホームページへ戻る</span></a>
+
+  <header>
+  
+    <h1>よーやくよやくできるよ</h1>
+  </header>
+  <h3>筑波技術大学のOnOffRoungeを使用する日時を予約できます</h3>
+  <h4>予約可能時間：毎週月曜日～金曜日　08:50～21:00</h4>
+  <h4>祝日は除く</h4>
+  <strong>予約は下のボタンからできます</strong><br>
+  
+    
+  
+
+ 
+  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+  <script>
+    (function () {
+      var target = document.currentScript;
+      window.addEventListener('load', function () {
+        calendar.schedulingButton.load({
+          url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0iI1PncSyPASYKB49JFj_qgciQVfC5O_7sTRSZVapTmKNF0soSkGSWLjVmehh9ocRiy9hpCort?gv=true',
+          color: '#039BE5',
+          label: '予約を作成',
+          target,
+         
+        });
+      });
+    })();
+  </script>
+  <br>
+  <!-- end Google Calendar Appointment Scheduling -->
+  <!--赤色にしようかな。CSSでね -->
+  <iframe src="https://calendar.google.com/calendar/embed?src=nutuonofflounge%40gmail.com&ctz=Asia%2FTokyo"
+    style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  　
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</html>
